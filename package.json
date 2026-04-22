@@ -1,0 +1,20 @@
+{
+  "name": "3d-solar-system-simulator",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run wasm:build && vite build",
+    "preview": "vite preview",
+    "wasm:build": "wasm-pack build rust-physics --target web --out-dir pkg",
+    "wasm:release": "wasm-pack build rust-physics --target web --release --out-dir pkg"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.14",
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
