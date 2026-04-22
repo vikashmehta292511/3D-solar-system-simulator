@@ -1,0 +1,18 @@
+[package]
+name = "rust-physics"
+version = "0.2.0"
+edition = "2021"
+description = "Normalized solar system physics for the browser"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde-wasm-bindgen = "0.6"
+wasm-bindgen = "0.2"
+
+[profile.release]
+lto = true
+opt-level = "s"
