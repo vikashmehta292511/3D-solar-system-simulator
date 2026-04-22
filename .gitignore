@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+.vercel/
+
+rust-physics/pkg/
+rust-physics/target/
+target/
+
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
