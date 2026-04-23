@@ -1,12 +1,13 @@
-# 3D Solar System Simulator
+<div align="center"> 
+  
+# **3D Solar System Simulator**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+---
 
-**Immersive 3D Solar System simulator with Rust-powered physics and stunning visuals.**
 
-## Tech Stack
+  
+## Tech Stack 
 
-<div align="center">
 
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
@@ -18,6 +19,7 @@
 </div>
 
 ---
+
 
 ## Overview
 
@@ -111,14 +113,6 @@ Contributions are welcome! Here's how to contribute:
    ```
 5. **Open a Pull Request**
 
-
----
-
-##  Author
-
-**Vikash Kr**
-- GitHub: [@vikashmehta292511](https://github.com/vikashmehta292511)
-- Repository: [3D-solar-system-simulator](https://github.com/vikashmehta292511/3D-solar-system-simulator)
 
 ---
 
