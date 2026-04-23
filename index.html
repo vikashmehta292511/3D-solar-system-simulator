@@ -1,88 +1,19 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3D Solar System Simulator</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Ccircle cx=%2732%27 cy=%2732%27 r=%2728%27 fill=%27%23f7a938%27/%3E%3Ccircle cx=%2732%27 cy=%2732%27 r=%2712%27 fill=%27%23fff1bf%27/%3E%3C/svg%3E" />
     <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
     <div class="app-shell">
       <canvas id="scene"></canvas>
-
-      <aside class="control-panel" id="control-panel">
-        <button class="panel-toggle" id="panel-toggle" type="button" aria-label="Toggle controls">
-          Hide Panel
-        </button>
-
-        <div class="panel-body">
-          <div class="panel-header">
-            <p class="panel-kicker">WASM + Three.js</p>
-            <h1>Solar System</h1>
-            <p class="panel-copy">Orbit, focus, trail, and gesture controls for the full simulation.</p>
-          </div>
-
-          <section class="control-group">
-            <div class="group-title-row">
-              <h2>Playback</h2>
-              <button class="secondary-button" id="reset-button" type="button">Reset</button>
-            </div>
-            <div class="button-row">
-              <button class="primary-button" id="pause-button" type="button">Pause</button>
-              <div class="speed-group" id="speed-group">
-                <button class="speed-button" data-speed="1" type="button">1x</button>
-                <button class="speed-button is-active" data-speed="10" type="button">10x</button>
-                <button class="speed-button" data-speed="100" type="button">100x</button>
-              </div>
-            </div>
-          </section>
-
-          <section class="control-group">
-            <h2>View</h2>
-            <label class="field-label" for="focus-select">Focus target</label>
-            <select id="focus-select"></select>
-
-            <div class="inline-fields">
-              <label class="checkbox-row">
-                <input id="trail-toggle" type="checkbox" checked />
-                <span>Orbit trails</span>
-              </label>
-
-              <label class="field-stack" for="quality-select">
-                <span>Quality</span>
-                <select id="quality-select">
-                  <option value="low">Low</option>
-                  <option value="medium" selected>Medium</option>
-                  <option value="high">High</option>
-                </select>
-              </label>
-            </div>
-          </section>
-
-          <section class="control-group">
-            <div class="group-title-row">
-              <h2>Gesture mode</h2>
-              <button class="secondary-button" id="gesture-button" type="button">Enable</button>
-            </div>
-            <p class="status-text" id="gesture-status">Camera control is off. Mouse and touch stay available.</p>
-          </section>
-
-          <section class="status-strip">
-            <div>
-              <span class="status-label">Focus</span>
-              <strong id="focus-name">Earth</strong>
-            </div>
-            <div>
-              <span class="status-label">FPS</span>
-              <strong id="fps-counter">--</strong>
-            </div>
-          </section>
-        </div>
-      </aside>
-
       <video id="gesture-video" playsinline muted></video>
     </div>
 
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
+
