@@ -2,10 +2,18 @@
   
 # **3D Solar System Simulator**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Vite](https://img.shields.io/badge/Built%20with-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+
 ---
 
+###  [Live Demo](https://3-d-solar-system-simulator.vercel.app/)
 
-  
+**Experience the 3D Solar System Simulator now!**  
+[Visit Live Application →](https://3-d-solar-system-simulator.vercel.app/)
+
+---
+
 ## Tech Stack 
 
 
@@ -15,6 +23,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
