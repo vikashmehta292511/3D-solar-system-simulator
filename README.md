@@ -7,10 +7,10 @@
 
 ---
 
-###  [Live Demo](https://3-d-solar-system-simulator.vercel.app/)
+###  [ Visit Live Application](https://3-d-solar-system-simulator.vercel.app/)
 
 **Experience the 3D Solar System Simulator now!**  
-[Visit Live Application →](https://3-d-solar-system-simulator.vercel.app/)
+
 
 ---
 
