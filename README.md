@@ -152,6 +152,6 @@ Contributions are welcome! Here's how to contribute:
 
 <div align="center">
 
-###  If you found this project helpful, please consider giving it a star!
+###  If you like this project, please consider giving it a star!
 
 </div>
