@@ -1,11 +1,10 @@
 <div align="center"> 
   
-# **3D Solar System Simulator**
-
+ # **3D Solar System Simulator**
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Vite](https://img.shields.io/badge/Built%20with-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 
----
+
 
 ###  [ Visit Live Application](https://3-d-solar-system-simulator.vercel.app/)
 
