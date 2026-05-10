@@ -10,6 +10,9 @@
 
 **Experience the 3D Solar System Simulator now!**  
 
+<br/>
+
+![3D Solar System Simulator Screenshot](./public/screenshot/3D_solar_simulator.png)
 
 ---
 
@@ -31,7 +34,7 @@
 
 ## Overview
 
-A stunning, high-performance **3D Solar System Simulator** built with cutting-edge web technologies. This project combines beautiful 3D graphics with realistic physics simulation to create an immersive space exploration experience. Features include interactive orbit controls, accurate gravity simulation via WebAssembly, gesture-based hand controls, and 3,600+ procedurally generated stars for an authentic stellar backdrop.
+A stunning, high-performance **3D Solar System Simulator** built with cutting-edge web technologies. This project combines beautiful 3D graphics with realistic physics simulation to create an immersive space exploration experience. Features include interactive orbit controls, accurate gravity simulation via WebAssembly, gesture-based hand controls, and procedurally generated stars for an authentic stellar backdrop.
 
 The simulator accurately renders all planets with procedurally generated textures, moons, and orbital mechanics. Physics calculations run on a Rust-based WebAssembly engine for blazing-fast performance without sacrificing visual fidelity.
 
@@ -102,28 +105,6 @@ The simulator accurately renders all planets with procedurally generated texture
 
 ---
 
-## Contributing
-
-Contributions are welcome! Here's how to contribute:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. **Commit changes with clear messages**
-   ```bash
-   git commit -m 'feat: add amazing feature'
-   ```
-4. **Push to branch**
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. **Open a Pull Request**
-
-
----
-
 ## Acknowledgments
 
 - **Three.js** - Amazing 3D graphics library
@@ -149,9 +130,3 @@ Contributions are welcome! Here's how to contribute:
 
 
 ---
-
-<div align="center">
-
-###  If you like this project, please consider giving it a star!
-
-</div>
