@@ -5,19 +5,7 @@
 [![Vite](https://img.shields.io/badge/Built%20with-Vite-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 
 
-
-###  [ Visit Live Application](https://3-d-solar-system-simulator.vercel.app/)
-
-**Experience the 3D Solar System Simulator now!**  
-
-<br/>
-
-![3D Solar System Simulator Screenshot](./public/screenshot/3D_solar_simulator.png)
-
----
-
 ## Tech Stack 
-
 
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
@@ -34,9 +22,20 @@
 
 ## Overview
 
-A stunning, high-performance **3D Solar System Simulator** built with cutting-edge web technologies. This project combines beautiful 3D graphics with realistic physics simulation to create an immersive space exploration experience. Features include interactive orbit controls, accurate gravity simulation via WebAssembly, gesture-based hand controls, and procedurally generated stars for an authentic stellar backdrop.
+A stunning, high-performance **3D Solar System Simulator**. This project combines beautiful 3D graphics with realistic physics simulation. Features include interactive orbit controls, accurate gravity simulation via WebAssembly, gesture-based hand controls, and procedurally generated stars for an authentic stellar backdrop.
 
 The simulator accurately renders all planets with procedurally generated textures, moons, and orbital mechanics. Physics calculations run on a Rust-based WebAssembly engine for blazing-fast performance without sacrificing visual fidelity.
+
+---
+
+<div align="center"> 
+
+###  [ Visit Live Application*](https://3-d-solar-system-simulator.vercel.app/) 
+
+
+![3D Solar System Simulator Screenshot](./public/screenshot/3D_solar_simulator.png)
+
+</div>
 
 ---
 
@@ -102,16 +101,6 @@ The simulator accurately renders all planets with procedurally generated texture
 - Optimized production bundling
 - Native ES modules support
 - WASM integration built-in
-
----
-
-## Acknowledgments
-
-- **Three.js** - Amazing 3D graphics library
-- **WebAssembly** - Enabling high-performance computation in the browser
-- **Rust** - Systems programming language with safety guarantees
-- **MediaPipe** - Google's ML framework for perception tasks
-- **Vite** - Next generation frontend build tool
 
 ---
 
